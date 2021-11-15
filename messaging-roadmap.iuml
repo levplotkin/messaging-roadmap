@@ -1,7 +1,5 @@
 @startmindmap
 
-'Compatible with OrgMode 
-
 * Distributed\nsystem
 ** Messaging\nmodel
 *** point-to-point
@@ -12,6 +10,8 @@
 *** queue
 *** sync
 *** aync
+
+
 
 left side
 ** Architectures
