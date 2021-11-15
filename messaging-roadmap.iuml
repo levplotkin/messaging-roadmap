@@ -1,0 +1,22 @@
+@startmindmap
+
+'Compatible with OrgMode 
+
+* Distributed\nsystem
+
+** Messaging\nmodel
+*** point-to-point
+**** ...
+*** broadcast\n(peer-to-peer)
+**** ...
+*** queue
+*** sync
+*** aync
+
+
+
+left side
+
+
+
+@endmindmap
