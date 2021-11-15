@@ -3,11 +3,11 @@
 'Compatible with OrgMode 
 
 * Distributed\nsystem
-
 ** Messaging\nmodel
 *** point-to-point
 **** ...
-*** broadcast\n(peer-to-peer)
+*** broadcast
+
 **** ...
 *** queue
 *** sync
@@ -16,7 +16,10 @@
 
 
 left side
-
-
+** Architectures
+*** client–server
+*** n-tier
+*** peer-to-peer
+*** microservices
 
 @endmindmap
