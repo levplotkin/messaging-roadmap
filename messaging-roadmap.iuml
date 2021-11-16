@@ -4,23 +4,42 @@
 ++ communication
 
 +++ messaging\nmodel
+
 ++++ point-to-point
 +++++ ...
+
 ++++ broadcast
 +++++ ...
+
 ++++ queue
++++++ realted\npatterns
+++++++_ event-driven\napproach
+++++++_ saga pattern
+
++++++ benefits
+++++++_ decoupling
+++++++_ bufffering
+++++++_ transaction
+++++++_ routing
+
+
+
+
 +++++ message broker
+++++++_ validation
+++++++_ transformation
+++++++_ routing
+
 +++++ message bus
 
 +++ type
 ++++_ sync
 ++++_ aync
 
-+++ architectures
-++++_ client–server
-++++_ n-tier
-++++_ peer-to-peer
-++++_ microservices
-
+++ architectures
++++_ client–server
++++_ n-tier
++++_ peer-to-peer
++++_ microservices
 
 @endmindmap
