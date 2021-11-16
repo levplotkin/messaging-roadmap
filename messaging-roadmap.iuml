@@ -20,28 +20,37 @@
 ++++++_ CQRS
 
 +++++ message broker
-
 +++++ message bus
 
 +++++ deployment
 ++++++_ cloud
 ++++++_ onprem
 
-
 +++++ advantages
-++++++_ decoupling
-++++++_ bufffering
-++++++_ transaction management
-++++++_ routing
-++++++_ broadcast and multicast
-++++++_ streaming
-++++++_ validation
-++++++_ transformation
-++++++_ filtering
-++++++_ durability
-++++++_ security
-++++++_ delivery guarantee
-++++++_ scale
+++++++ decoupling
+++++++ load bufffering\n or throttling
+
+++++++ streaming
+++++++ durability
+
+++++++ security
++++++++_ encryption
++++++++_ authorization
++++++++_ authentication
++++++++_ audit
++++++++_ integrity guarantees
+
+++++++ delivery guarantee
+++++++ scale
++++++++_ load balancing
+
+++++++ complex event processing
++++++++_ validation
++++++++_ transformation
++++++++_ filtering
++++++++_ routing
++++++++_ broadcast and multicast
++++++++_ transaction management
 
 +++ type
 ++++_ sync
