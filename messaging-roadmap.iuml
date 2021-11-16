@@ -1,21 +1,26 @@
 @startmindmap
 
-+ Distributed\nsystem
-++ Messaging\nmodel
-+++ point-to-point
-++++ ...
-+++ broadcast
++ distributed\nsystem
+++ communication
 
-++++ ...
-+++ queue
-+++ sync
-+++ aync
++++ messaging\nmodel
+++++ point-to-point
++++++ ...
+++++ broadcast
++++++ ...
+++++ queue
++++++ message broker
++++++ message bus
 
--- Architectures
----_ client–server
----_ n-tier
----_ peer-to-peer
----_ microservices
++++ type
+++++_ sync
+++++_ aync
+
++++ architectures
+++++_ client–server
+++++_ n-tier
+++++_ peer-to-peer
+++++_ microservices
 
 
 @endmindmap
