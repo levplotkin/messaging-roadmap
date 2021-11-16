@@ -23,6 +23,11 @@
 
 +++++ message bus
 
++++++ deployment
+++++++_ cloud
+++++++_ onprem
+
+
 +++++ advantages
 ++++++_ decoupling
 ++++++_ bufffering
@@ -41,6 +46,14 @@
 +++ type
 ++++_ sync
 ++++_ aync
+
++++ protocols
+++++_ AMQP
+++++_ STOMP
+++++_ XMPP
+++++_ JMS
+++++_ MQTT
+++++_ HTTP
 
 ++ architectures
 +++_ client–server
