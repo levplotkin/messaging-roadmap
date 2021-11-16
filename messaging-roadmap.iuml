@@ -33,7 +33,8 @@
 ++++++_ validation
 ++++++_ transformation
 ++++++_ filtering
-++++++_ persistance
+++++++_ durability
+++++++_ security
 ++++++_ delivery guarantee
 ++++++_ scale
 
