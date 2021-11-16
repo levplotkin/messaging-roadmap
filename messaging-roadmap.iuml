@@ -12,25 +12,30 @@
 +++++ ...
 
 ++++ queue
+
 +++++ realted\npatterns
 ++++++_ event-driven\napproach
 ++++++_ saga pattern
-
-+++++ benefits
-++++++_ decoupling
-++++++_ bufffering
-++++++_ transaction
-++++++_ routing
-
-
-
+++++++_ publish–subscribe
+++++++_ CQRS
 
 +++++ message broker
-++++++_ validation
-++++++_ transformation
-++++++_ routing
 
 +++++ message bus
+
++++++ advantages
+++++++_ decoupling
+++++++_ bufffering
+++++++_ transaction management
+++++++_ routing
+++++++_ broadcast and multicast
+++++++_ streaming
+++++++_ validation
+++++++_ transformation
+++++++_ filtering
+++++++_ persistance
+++++++_ delivery guarantee
+++++++_ scale
 
 +++ type
 ++++_ sync
