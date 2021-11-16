@@ -14,7 +14,7 @@
 ++++ queue
 
 +++++ realted\npatterns
-++++++_ event-driven\napproach
+++++++_ event-driven
 ++++++_ saga pattern
 ++++++_ publish–subscribe
 ++++++_ CQRS
