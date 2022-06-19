@@ -1,74 +1,51 @@
 @startmindmap
-
-+ distributed\nsystem
-++ communication
-
-+++ messaging\nmodel
-
-++++ point-to-point
-+++++ ...
-
-++++ broadcast
-+++++ ...
-
-++++ queue
-
-+++++ realted\npatterns
-++++++_ event-driven
-++++++_ saga pattern
-++++++_ publish–subscribe
-++++++_ CQRS
-
-+++++ message broker
-+++++ message bus
-
-+++++ deployment
-++++++_ cloud
-++++++_ onprem
-
-+++++ advantages
-++++++ decoupling
-++++++ load bufffering\n or throttling
-
-++++++ streaming
-++++++ durability
-
-++++++ security
-+++++++_ encryption
-+++++++_ authorization
-+++++++_ authentication
-+++++++_ audit
-+++++++_ integrity guarantees
-
-++++++ delivery guarantee
-++++++ scale
-+++++++_ load balancing
-
-++++++ complex event processing
-+++++++_ validation
-+++++++_ transformation
-+++++++_ filtering
-+++++++_ routing
-+++++++_ broadcast and multicast
-+++++++_ transaction management
-
-+++ type
-++++_ sync
-++++_ aync
-
-+++ protocols
-++++_ AMQP
-++++_ STOMP
-++++_ XMPP
-++++_ JMS
-++++_ MQTT
-++++_ HTTP
-
-++ architectures
-+++_ client–server
-+++_ n-tier
-+++_ peer-to-peer
-+++_ microservices
-+++_ data-centered
++ messaging\nsystems
+++ messaging\nmodel
++++ queue\npoint-to-point
++++ topic\nbroadcast
+++ properties
++++_ redundancy
++++_ retention
++++_ push or pull
++++_ delayed
++++_ ordering
++++ guarantees
+++++_ at-least-once
+++++_ at-most-once
+++++_ exactly-once
++++_ clustering
++++_ auto failover
++++ security
+++++_ ACL
+++++_ TLS
+++++_ SAML/OAuth
+++ client
++++ SDK
++++ langueage support/ libs
++++ API
+-- performance
+---_ throughput 
+---_ latency 
+---_ scaling
+---_ re-partition
+-- data
+--- protocol
+----_ compression
+----_ ack
+----_ routing/filtering
+----_ batching
+---_ scheme/ structure
+---_ dead letter queue
+---_ poison pill message
+-- deployment
+---_ on prem
+---_ cloud
+-- advantages
+---_ decoupling
+---_ scalability
+---_ asynchronous communication
+---_ spikability
+---_ resiliency
+---_ decoupling
 
 @endmindmap
